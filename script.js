@@ -38,7 +38,7 @@
                 } else if (weatherCondition === "clear") {
                     weatherIcon.src = "imge/pngegg (41).png";
                 } else if (weatherCondition === "rain") {
-                    weatherIcon.src = "imge/pngegg (43).png";
+                    weatherIcon.src = "imge/rain.png";
                 } else if (weatherCondition === "mist") {
                     weatherIcon.src = "imge/pngegg (42).png";
                 } else {

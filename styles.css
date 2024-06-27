@@ -8,12 +8,14 @@
  body {
      background: #222;
      color: #fff;
+    min-height: 100vh;
+    
  }
 
  .card {
      width: 90%;
      max-width: 470px;
-     background: linear-gradient(135deg, #1895dd, #968cf4);
+     background: linear-gradient(135deg, #4dbc8f, #0eabced3);
      margin: 100px auto 0;
      border-radius: 20px;
      padding: 40px 35px;
@@ -31,11 +33,12 @@
      border: 0;
      outline: 0;
      background: #ebfffc;
-     color: #555;
+     color: #000241;
      padding: 10px 25px;
      height: 60px;
      border-radius: 30px;
      flex: 1;
+     font-weight: 600;
      margin-right: 16px;
      font-size: 18px;
  }
@@ -61,8 +64,10 @@
  }
 
  .weather-icon {
+     display: flex;
      width: 170px;
      margin-top: 30px;
+     
  }
 
  .weather h1 {
@@ -90,12 +95,15 @@
  .col {
      display: flex;
      align-items: center;
+     margin-right: 80px;
+     margin-left: 10px;
      text-align: left;
  }
 
  .col img {
-     width: 100px;
+     width: 70%;
      margin-right: 5px;
+     height:70% ;
  }
 
  @media (max-width: 600px) {
@@ -157,4 +165,10 @@
          width: 60px;
          margin-bottom: 10px;
      }
+ }
+ 
+ .fa-magnifying-glass {
+     font-size: 26px;
+     color: #15a0fc;
+    
  }
